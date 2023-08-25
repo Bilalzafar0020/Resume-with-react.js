@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.main{
+  background-color: #eee8e5;
+  width: 100vw;
+  height: 100vh;
+}
+
+div.secondMain{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+div.pic{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
